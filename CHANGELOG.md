@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/adobe/helix-clickhouse-feeder/compare/v1.3.4...v1.3.5) (2026-05-26)
+
+
+### Bug Fixes
+
+* **deps:** update adobe fixes ([#30](https://github.com/adobe/helix-clickhouse-feeder/issues/30)) ([83d680f](https://github.com/adobe/helix-clickhouse-feeder/commit/83d680fb2f9cab16dfa737f42e358b9950fb3675))
+
 ## [1.3.4](https://github.com/adobe/helix-clickhouse-feeder/compare/v1.3.3...v1.3.4) (2026-05-21)
 
 
