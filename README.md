@@ -35,13 +35,8 @@ $ AWS_REGION=...; AWS_ACCOUNT_ID=...; aws lambda add-permission \
     --statement-id 'CloudWatchInvokeClickHouse' \
     --principal 'logs.amazonaws.com' \
     --action 'lambda:InvokeFunction' \
-    --source-arn "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT_ID}:log-group:/aws/lambda/helix-services--my-service:*" \
+    --source-arn "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT_ID}:log-group:/aws/lambda/*:*" \
     --source-account "${AWS_ACCOUNT_ID}"
-```
-If there are multiple services you want to add this subscription filter to, it is easier to replace the source arn
-with a more generic expression:
-```
-    --source-arn "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT_ID}:log-group:/aws/lambda/*:*"
 ```
 
 The service uses the following environment variables:
