@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/adobe/helix-clickhouse-feeder/compare/v1.3.5...v1.3.6) (2026-07-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @adobe/helix-shared-secrets to v2.3.5 ([#34](https://github.com/adobe/helix-clickhouse-feeder/issues/34)) ([770be06](https://github.com/adobe/helix-clickhouse-feeder/commit/770be06ec0cab738c0e6ba9db1aedc89b8b103be))
+
 ## [1.3.5](https://github.com/adobe/helix-clickhouse-feeder/compare/v1.3.4...v1.3.5) (2026-05-26)
 
 
